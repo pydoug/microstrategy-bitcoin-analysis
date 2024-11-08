@@ -79,7 +79,7 @@ fig.add_trace(go.Scatter(
 
 fig.update_layout(
     title='Crescimento do Patrimônio em Bitcoin da MicroStrategy',
-    title_font=dict(size=25, family='Arial Black', color='white'),
+    title_font=dict(size=35, family='Arial Black', color='white'),
     xaxis=dict(
         title='Trimestre',
         title_font=dict(size=19, color='white'),
@@ -109,7 +109,7 @@ fig.update_layout(
         bgcolor='rgba(0, 0, 0, 0.5)',
         bordercolor='white',
         borderwidth=1,
-        font=dict(size=19, color='white')
+        font=dict(size=25, color='white')
     ),
     paper_bgcolor='black',
     plot_bgcolor='black',
